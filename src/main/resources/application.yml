@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/client_database_test?useTimezone=true&serverTimezone=UTC
+    username: root
+    password: Raysa#1902
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+spring-doc:
+  paths-to-match:
+    - /api/**/v1/**
+  swagger-ui:
+    use-root-path: true
