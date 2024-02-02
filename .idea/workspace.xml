@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.5016129" />
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Restful-Api-kotlin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="KotlinCompilerWorkspaceSettings">
+    <option name="preciseIncrementalEnabled" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="C:\Users\Dell\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ZowXUe9ajqn3WzxwFXpNSuuUFB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "Application.MathController.kt.executor": "Debug",
+    "Application.SpringApplication.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Attach to process.pid 16440.executor": "ProcessAttachDebug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
+    "JUnit.ClientServicesTest.executor": "Run",
+    "JUnit.DozerMapperTest.executor": "Run",
+    "JUnit.DozerMapperTest.parseEntityListToVOListTest.executor": "Debug",
+    "JUnit.DozerMapperTest.parserVOListToEntityListTest.executor": "Run",
+    "JUnit.rest-with-spring-boot-and-Kotlin-erudio in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
+    "JUnit.src in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
+    "JUnit.src.main in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Debug",
+    "JUnit.src.main.kotlin in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
+    "Kotlin.ApplicationKt.executor": "Debug",
+    "Kotlin.Kt.executor": "Run",
+    "Kotlin.Startup.executor": "Run",
+    "Kotlin.StartupKt (1).executor": "Run",
+    "Kotlin.StartupKt.executor": "Debug",
+    "Kotlin.Teste.executor": "Run",
+    "Maven.jackson-dataformat-xml [test].executor": "Run",
+    "Maven.rest-with-spring-boot-and-kotlin-erudio [clean].executor": "Run",
+    "Maven.rest-with-spring-boot-and-kotlin-erudio [install].executor": "Run",
+    "Maven.rest-with-spring-boot-and-kotlin-erudio [test].executor": "Run",
+    "Maven.rest-with-spring-boot-and-kotlin-erudio [validate].executor": "Run",
+    "Maven.rest-with-spring-boot-and-kotlin-erudio [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Startup.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Restful-Api-kotlin",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/Cursos/REST_API_udemy/rest-with-spring-boot-and-Kotlin-erudio.git/methods_get_post_put_delete",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5582479",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.splitter.proportion": "0.20285262",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\Cursos\REST_API_udemy\rest-with-spring-boot-and-Kotlin-erudio.git\methods_get_post_put_delete\src\main\resources\db\migration" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\Cursos\REST_API_udemy\rest-with-spring-boot-and-Kotlin-erudio.git\methods_get_post_put_delete\src\test\kotlin\br\com\erudio\unittests\mapper" />
+      <recent name="C:\Users\Dell\Desktop\Cursos\REST_API_udemy\rest-with-spring-boot-and-Kotlin-erudio.git\methods_get_post_put_delete\src\test\kotlin\br\com\erudio\unittests\mapper\mocks" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.erudio.exceptions.handler" />
+      <recent name="br.com.erudio.converters" />
+      <recent name="br.com.erudio.controller" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.erudio.mockito.services" />
+      <recent name="" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="br.com.erudio.data.vo.v2" />
+      <recent name="br.com.erudio.data.vo.v1" />
+    </key>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Startup">
+    <configuration name="ClientServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.mockito.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.mockito.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.mockito.services.ClientServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.unittests.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.unittests.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.unittests.mapper.DozerMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerMapperTest.parseEntityListToVOListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.unittests.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.unittests.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.unittests.mapper.DozerMapperTest" />
+      <option name="METHOD_NAME" value="parseEntityListToVOListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DozerMapperTest.parserVOListToEntityListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.unittests.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio.unittests.mapper" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.unittests.mapper.DozerMapperTest" />
+      <option name="METHOD_NAME" value="parserVOListToEntityListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartupKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.StartupKt" />
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ClientServicesTest" />
+      <item itemvalue="JUnit.DozerMapperTest" />
+      <item itemvalue="JUnit.DozerMapperTest.parseEntityListToVOListTest" />
+      <item itemvalue="JUnit.DozerMapperTest.parserVOListToEntityListTest" />
+      <item itemvalue="Kotlin.StartupKt (1)" />
+      <item itemvalue="Spring Boot.Startup" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientServicesTest" />
+        <item itemvalue="Kotlin.StartupKt (1)" />
+        <item itemvalue="JUnit.DozerMapperTest" />
+        <item itemvalue="JUnit.DozerMapperTest.parserVOListToEntityListTest" />
+        <item itemvalue="JUnit.DozerMapperTest.parseEntityListToVOListTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Dell\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="" />
+      <created>1703101782090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703101782090</updated>
+      <workItem from="1703180381443" duration="4334000" />
+      <workItem from="1703191924897" duration="1014000" />
+      <workItem from="1703198577878" duration="583000" />
+      <workItem from="1703278694749" duration="2446000" />
+      <workItem from="1703863960090" duration="395000" />
+      <workItem from="1703864392133" duration="3205000" />
+      <workItem from="1703867898837" duration="418000" />
+      <workItem from="1703868354356" duration="2341000" />
+      <workItem from="1705602111953" duration="144000" />
+      <workItem from="1705602270236" duration="47000" />
+      <workItem from="1705602345497" duration="2948000" />
+      <workItem from="1705606878047" duration="1971000" />
+      <workItem from="1705608904240" duration="3497000" />
+      <workItem from="1705613863649" duration="32000" />
+      <workItem from="1705613937630" duration="2538000" />
+      <workItem from="1705619601753" duration="3984000" />
+      <workItem from="1705671237967" duration="3099000" />
+      <workItem from="1705674856824" duration="97000" />
+      <workItem from="1705675001630" duration="3334000" />
+      <workItem from="1705679404969" duration="2485000" />
+      <workItem from="1705681939588" duration="674000" />
+      <workItem from="1705682664722" duration="1460000" />
+      <workItem from="1705685847542" duration="2337000" />
+      <workItem from="1705688443779" duration="3076000" />
+      <workItem from="1706538569000" duration="2270000" />
+      <workItem from="1706549035376" duration="193000" />
+      <workItem from="1706549270921" duration="303000" />
+      <workItem from="1706550184861" duration="1133000" />
+      <workItem from="1706551382391" duration="1880000" />
+      <workItem from="1706553321610" duration="845000" />
+      <workItem from="1706554216271" duration="1271000" />
+      <workItem from="1706555498642" duration="32000" />
+      <workItem from="1706556752161" duration="438000" />
+      <workItem from="1706557197350" duration="214000" />
+      <workItem from="1706557452732" duration="1509000" />
+      <workItem from="1706559994689" duration="903000" />
+      <workItem from="1706561513867" duration="214000" />
+      <workItem from="1706561774558" duration="1036000" />
+      <workItem from="1706563131182" duration="409000" />
+      <workItem from="1706563578991" duration="287000" />
+      <workItem from="1706563869612" duration="2757000" />
+      <workItem from="1706616089714" duration="1438000" />
+      <workItem from="1706617540932" duration="146000" />
+      <workItem from="1706617730982" duration="71882000" />
+      <workItem from="1706907444917" duration="523000" />
+    </task>
+    <task id="LOCAL-00001" summary="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros">
+      <option name="closed" value="true" />
+      <created>1706907771916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706907771916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1706300722103" />
+                        <option value="" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CODE_SMELLS_PROFILE" value="Project Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/rest-with-spring-boot-and-Kotlin-erudio" />
+      <path value="$PROJECT_DIR$/src/main/kotlin/com/escolasupernova/rest-with-spring-boot-and-Kotlin-erudio" />
+      <path value="$PROJECT_DIR$/Restful-Api-kotlin" />
+      <path value="$PROJECT_DIR$/new_branch" />
+    </ignored-roots>
+    <MESSAGE value="Iniciando um novo repositorio para organizacao" />
+    <MESSAGE value="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/first_steps_spring_boot_kotlin$rest_with_spring_boot_and_Kotlin_erudio_in_https_github_com_RayTowns_rest_with_spring_boot_and_Kotlin_erudio_git.ic" NAME="rest-with-spring-boot-and-Kotlin-erudio in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git Coverage Results" MODIFIED="1703198345456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>rest-with-spring-boot-and-Kotlin-erudio.*</FILTER>
+    </SUITE>
+  </component>
+</project>
