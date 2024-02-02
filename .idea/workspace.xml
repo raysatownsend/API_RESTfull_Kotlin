@@ -138,7 +138,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5582479",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.20285262",
     "vue.rearranger.settings.migration": "true"
   }
@@ -325,7 +325,7 @@
       <workItem from="1706616089714" duration="1438000" />
       <workItem from="1706617540932" duration="146000" />
       <workItem from="1706617730982" duration="71882000" />
-      <workItem from="1706907444917" duration="523000" />
+      <workItem from="1706907444917" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros">
       <option name="closed" value="true" />
