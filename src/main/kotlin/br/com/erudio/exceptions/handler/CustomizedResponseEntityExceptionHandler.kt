@@ -1,9 +1,6 @@
 package br.com.erudio.exceptions.handler
 
-import br.com.erudio.exceptions.ExceptionResponse
-import br.com.erudio.exceptions.RequiredObjectIsNullException
-import br.com.erudio.exceptions.ResourceNotFoundException
-import br.com.erudio.exceptions.ResponseNoContentException
+import br.com.erudio.exceptions.*
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ControllerAdvice
@@ -39,7 +36,7 @@ class CustomizedResponseEntityExceptionHandler: ResponseEntityExceptionHandler()
         return ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.NOT_FOUND)
     }
 
-    @ExceptionHandler(RequiredObjectIsNullException::class)
+    @ExceptionHandler(ResponseBadRequestException::class)
     fun handleBadRequestException(ex : Exception, request : WebRequest) :
             ResponseEntity<ExceptionResponse> {
         val exceptionResponse = ExceptionResponse(
@@ -59,5 +56,16 @@ class CustomizedResponseEntityExceptionHandler: ResponseEntityExceptionHandler()
             request.getDescription(false)
         )
         return ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.NO_CONTENT)
+    }
+
+    @ExceptionHandler(InvalidJwtAuthenticationException::class)
+    fun handleInvalidJwtAuthenticationException(ex : Exception, request : WebRequest) :
+            ResponseEntity<ExceptionResponse> {
+        val exceptionResponse = ExceptionResponse(
+            Date(),
+            ex.message,
+            request.getDescription(false)
+        )
+        return ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.FORBIDDEN)
     }
 }

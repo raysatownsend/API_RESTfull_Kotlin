@@ -11,6 +11,11 @@ import io.swagger.v3.oas.annotations.media.Schema
 import io.swagger.v3.oas.annotations.responses.ApiResponse
 import io.swagger.v3.oas.annotations.tags.Tag
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.data.domain.PageRequest
+import org.springframework.data.domain.Pageable
+import org.springframework.data.domain.Sort
+import org.springframework.hateoas.EntityModel
+import org.springframework.hateoas.PagedModel
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
@@ -22,8 +27,8 @@ class ClientController {
     @Autowired
    private lateinit var service: ClientServices
 
-    @GetMapping(produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YAML])
-    @Operation(summary = "Get all clients", description = "Get all clients",
+    @GetMapping(produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
+    @Operation(summary = "Gets all clients", description = "Gets all clients",
         tags = ["Clients"],
         responses = [
             ApiResponse(
@@ -37,7 +42,7 @@ class ClientController {
                 description = "No Content",
                 responseCode = "204",
                 content = [
-                    Content(schema = Schema(implementation = ResponseNoContentException::class))
+                    Content(schema = Schema(implementation = Unit::class))
                 ]),
 
             ApiResponse(
@@ -70,14 +75,81 @@ class ClientController {
         ]
     )
 
-    fun findAll(): List<ClientVO> {
-        return service.findAll()
+    fun findAll(@RequestParam(value = "page", defaultValue = "0") page: Int,
+                @RequestParam(value = "size", defaultValue = "15") size: Int,
+                @RequestParam(value = "direction", defaultValue = "asc") direction: String
+        ): ResponseEntity<PagedModel<EntityModel<ClientVO>>> {
+        val sortDirection: Sort.Direction =
+            if("desc".equals(direction, ignoreCase = true)) Sort.Direction.DESC else Sort.Direction.ASC
+        val pageable: Pageable = PageRequest.of(page, size, Sort.by(sortDirection, "firstName"))
+        return ResponseEntity.ok(service.findAll(pageable))
     }
 
-    @GetMapping(value = ["/{id}"],
-        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML])
+    @GetMapping(value = ["/findClientByName/{firstName}"], produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
+    @Operation(summary = "Gets a client by First Name", description = "Gets a client by First Name",
+        tags = ["Clients"],
+        responses = [
+            ApiResponse(
+                description = "Success",
+                responseCode = "200",
+                content = [
+                    Content(array = ArraySchema(schema = Schema(implementation = ClientVO::class)))
+                ]),
 
-    @Operation(summary = "Get one client", description = "Get one client",
+            ApiResponse(
+                description = "No Content",
+                responseCode = "204",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Bad Request",
+                responseCode = "400",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Unauthorized",
+                responseCode = "401",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Not Found",
+                responseCode = "404",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Internal Error",
+                responseCode = "500",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+        ]
+    )
+
+    fun findClientByFirstName(
+                @PathVariable(value = "firstName") firstName: String,
+                @RequestParam(value = "page", defaultValue = "0") page: Int,
+                @RequestParam(value = "size", defaultValue = "15") size: Int,
+                @RequestParam(value = "direction", defaultValue = "asc") direction: String
+        ): ResponseEntity<PagedModel<EntityModel<ClientVO>>> {
+        val sortDirection: Sort.Direction =
+            if("desc".equals(direction, ignoreCase = true)) Sort.Direction.DESC else Sort.Direction.ASC
+        val pageable: Pageable = PageRequest.of(page, size, Sort.by(sortDirection, "firstName"))
+        return ResponseEntity.ok(service.findClientByFirstName(firstName, pageable))
+    }
+
+    @CrossOrigin(origins = ["http://localhost:8080", "http://localhost:8036"])
+    @GetMapping(value = ["/{id}"],
+        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
+
+    @Operation(summary = "Gets one client", description = "Gets one client",
         tags = ["Clients"],
         responses = [
             ApiResponse(
@@ -91,7 +163,7 @@ class ClientController {
                 description = "No Content",
                 responseCode = "204",
                 content = [
-                    Content(schema = Schema(implementation = ResponseNoContentException::class))
+                    Content(schema = Schema(implementation = Unit::class))
                 ]),
 
             ApiResponse(
@@ -127,8 +199,9 @@ class ClientController {
         return service.findById(id)
     }
 
-    @PostMapping(consumes = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML],
-        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML])
+    @CrossOrigin(origins = ["http://localhost:8080", "http://localhost:8036", "https://erudio.com.br"])
+    @PostMapping(consumes = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML],
+        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
 
     @Operation(summary = "Creating a new client", description = "Creating a new client",
         tags = ["Clients"],
@@ -162,13 +235,12 @@ class ClientController {
                 ]),
         ]
     )
-    fun create(@RequestBody person: ClientVO): ClientVO {
-        return service.create(person)
-
+    fun create(@RequestBody client: ClientVO): ClientVO {
+        return service.create(client)
     }
 
-    @PutMapping(consumes = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML],
-        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML])
+    @PutMapping(consumes = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML],
+        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
 
     @Operation(summary = "Updates a client in database", description = "Updates a client in database",
         tags = ["Clients"],
@@ -184,7 +256,7 @@ class ClientController {
                 description = "No Content",
                 responseCode = "204",
                 content = [
-                    Content(schema = Schema(implementation = ResponseNoContentException::class))
+                    Content(schema = Schema(implementation = Unit::class))
                 ]),
 
             ApiResponse(
@@ -217,12 +289,65 @@ class ClientController {
         ]
     )
 
-    fun update(@RequestBody person: ClientVO): ClientVO {
-        return service.update(person)
+    fun update(@RequestBody client: ClientVO): ClientVO {
+        return service.update(client)
+    }
+
+    @PatchMapping(value = ["/{id}"],
+        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
+
+    @Operation(summary = "Disabling a client", description = "Disables a client",
+        tags = ["Clients"],
+        responses = [
+            ApiResponse(
+                description = "Success",
+                responseCode = "200",
+                content = [
+                    Content(schema = Schema(implementation = ClientVO::class))
+                ]),
+
+            ApiResponse(
+                description = "No Content",
+                responseCode = "204",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Bad Request",
+                responseCode = "400",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Unauthorized",
+                responseCode = "401",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Not Found",
+                responseCode = "404",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+
+            ApiResponse(
+                description = "Internal Error",
+                responseCode = "500",
+                content = [
+                    Content(schema = Schema(implementation = Unit::class))
+                ]),
+        ]
+    )
+    private fun disabledClient(@PathVariable(value="id") id: Long): ClientVO {
+        return service.disabledClient(id)
     }
 
     @DeleteMapping(value = ["/{id}"],
-        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML])
+        produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
 
     @Operation(summary = "Deletes a client in database", description = "Deletes a client in database",
         tags = ["Clients"],

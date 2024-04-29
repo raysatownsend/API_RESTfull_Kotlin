@@ -3,7 +3,7 @@ package br.com.erudio.unittests.mapper
 import br.com.erudio.data.vo.v1.ClientVO
 import br.com.erudio.mapper.DozerMapper
 import br.com.erudio.model.Client
-import br.com.erudio.unittests.mapper.mocks.MockClient
+import br.com.erudio.unittests.mocks.MockClient
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

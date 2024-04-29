@@ -9,7 +9,7 @@ data class Client(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long = 0,
 
-    @Column(name = "fist_name", nullable = false, length = 80)
+    @Column(name = "first_name", nullable = false, length = 80)
     var firstName: String = "",
 
     @Column(name = "last_name", nullable = false, length = 80)
@@ -19,5 +19,8 @@ data class Client(
     var address: String = "",
 
     @Column(nullable = false, length = 10)
-    var gender: String = ""
+    var gender: String = "",
+
+    @Column(nullable = false)
+    var enabled: Boolean = true
 )
