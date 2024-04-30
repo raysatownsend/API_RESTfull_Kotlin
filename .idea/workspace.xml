@@ -41,7 +41,7 @@
         <entry key="$PROJECT_DIR$/API_RESTfull_Kotlin" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/API_RESTfull_Kotlin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/https:/github.com/raysatownsend/API_RESTfull_Kotlin.git" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -204,7 +204,6 @@
     "Spring Boot.Startup.executor": "Coverage",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "secnd__version",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
@@ -220,8 +219,8 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3494253",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "settings.editor.splitter.proportion": "0.3058104",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.splitter.proportion": "0.20016406",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -607,7 +606,7 @@
       <workItem from="1714396848923" duration="6816000" />
       <workItem from="1714408637236" duration="6217000" />
       <workItem from="1714425130672" duration="686000" />
-      <workItem from="1714426996921" duration="5888000" />
+      <workItem from="1714426996921" duration="7455000" />
     </task>
     <task id="LOCAL-00001" summary="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros">
       <option name="closed" value="true" />
