@@ -8,11 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="'criando endpoints de autenticacao e seguranca'">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="'criando endpoints de autenticacao e seguranca'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,12 +51,12 @@
     &quot;assignee&quot;: &quot;RayTowns&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/raysatownsend/API_RESTfull_Kotlin.git",
-    "accountId": "ac6eaf53-188f-447c-82e4-ed21ca61c846"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raysatownsend/API_RESTfull_Kotlin.git&quot;,
+    &quot;accountId&quot;: &quot;ac6eaf53-188f-447c-82e4-ed21ca61c846&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.2.0/spring-boot-autoconfigure-3.2.0-sources.jar!/org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -114,134 +110,134 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Application.MathController.kt.executor": "Debug",
-    "Application.SpringApplication.executor": "Run",
-    "Application.Unnamed.executor": "Run",
-    "Attach to process.pid 16440.executor": "ProcessAttachDebug",
-    "Database Script.V1__Create_Table_Clients.sql.executor": "Run",
-    "Database Script.V2__Populate_Table_Clients.sql.executor": "Run",
-    "Database Script.V3__Create_Table_Books.sql.executor": "Run",
-    "Database Script.V4__Insert_Data_In_Books.sql.executor": "Run",
-    "Docker....client_database_test: Compose Deployment.executor": "Run",
-    "Docker....db: Compose Deployment.executor": "Run",
-    "Docker...: Compose Deployment.executor": "Run",
-    "Docker.Dockerfile.executor": "Run",
-    "Docker.docker-compose.yml.db: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JPA.DatabaseSchemaImportDialog": "ad6aff0c-1ebc-4ea8-b301-8227208380e3",
-    "JUnit.All in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio (1).executor": "Run",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio (2).executor": "Run",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio (3).executor": "Run",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio (4).executor": "Debug",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio (5).executor": "Debug",
-    "JUnit.All in rest-with-spring-boot-and-kotlin-erudio.executor": "Coverage",
-    "JUnit.AuthControllerJsonTest.executor": "Run",
-    "JUnit.AuthControllerXmlTest.executor": "Run",
-    "JUnit.AuthControllerYmlTest.executor": "Run",
-    "JUnit.BookAuthorsServicesTest.executor": "Debug",
-    "JUnit.BookControllerCorsWithJson.executor": "Run",
-    "JUnit.BookControllerWithJson.executor": "Run",
-    "JUnit.BookControllerWithXml.executor": "Coverage",
-    "JUnit.BookControllerWithYML.executor": "Coverage",
-    "JUnit.BookControllerWithYML.testFindAll.executor": "Coverage",
-    "JUnit.ClientControllerCorsWithJson.executor": "Run",
-    "JUnit.ClientControllerCorsWithJson.testCreate.executor": "Run",
-    "JUnit.ClientControllerCorsWithJson.testFindAll.executor": "Run",
-    "JUnit.ClientControllerCorsWithXml.authorization.executor": "Run",
-    "JUnit.ClientControllerCorsWithXml.executor": "Run",
-    "JUnit.ClientControllerCorsWithYml.executor": "Run",
-    "JUnit.ClientControllerWithJson.executor": "Run",
-    "JUnit.ClientControllerWithXml.executor": "Run",
-    "JUnit.ClientControllerWithYML.executor": "Run",
-    "JUnit.ClientRepositoryTest.executor": "Run",
-    "JUnit.ClientServicesTest.executor": "Run",
-    "JUnit.ClientServicesTest.findById.executor": "Run",
-    "JUnit.DozerMapperBookTest.executor": "Run",
-    "JUnit.DozerMapperTest.executor": "Run",
-    "JUnit.DozerMapperTest.parseEntityListToVOListTest.executor": "Run",
-    "JUnit.DozerMapperTest.parserVOListToEntityListTest.executor": "Run",
-    "JUnit.SwaggerIntegrationTest.executor": "Debug",
-    "JUnit.SwaggerIntegrationTest.shouldDisplaySwaggerUiPage.executor": "Run",
-    "JUnit.erudio in rest-with-spring-boot-and-kotlin-erudio.executor": "Run",
-    "JUnit.kotlin in rest-with-spring-boot-and-kotlin-erudio.executor": "Run",
-    "JUnit.rest-with-spring-boot-and-Kotlin-erudio in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
-    "JUnit.src in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
-    "JUnit.src.main in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Debug",
-    "JUnit.src.main.kotlin in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor": "Run",
-    "JUnit.withJson in rest-with-spring-boot-and-kotlin-erudio.executor": "Run",
-    "JUnit.withXml in rest-with-spring-boot-and-kotlin-erudio.executor": "Run",
-    "JUnit.withYml in rest-with-spring-boot-and-kotlin-erudio.executor": "Run",
-    "Kotlin.ApplicationKt.executor": "Debug",
-    "Kotlin.Kt.executor": "Run",
-    "Kotlin.Startup.executor": "Run",
-    "Kotlin.StartupKt (1).executor": "Run",
-    "Kotlin.StartupKt.executor": "Debug",
-    "Kotlin.Teste.executor": "Run",
-    "Maven.Startup.executor": "Debug",
-    "Maven.StartupKt.executor": "Debug",
-    "Maven.jackson-dataformat-xml [test].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [clean...].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [clean].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [compile].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [install...].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [install].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [org.flywaydb:flyway-maven-plugin:9.22.3:baseline].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [org.flywaydb:flyway-maven-plugin:9.22.3:clean].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [package].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [test].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [validate].executor": "Run",
-    "Maven.rest-with-spring-boot-and-kotlin-erudio [verify].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.Startup.executor": "Coverage",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "secnd__version",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/raysatownsend/Documents/Back-End/Cursos/API_RESTful_with_springboot_kotlin_e_swagger/methods_get_post_put_delete/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3494253",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "settings.editor.splitter.proportion": "0.20016406",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MathController.kt.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SpringApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Attach to process.pid 16440.executor&quot;: &quot;ProcessAttachDebug&quot;,
+    &quot;Database Script.V1__Create_Table_Clients.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.V2__Populate_Table_Clients.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.V3__Create_Table_Books.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.V4__Insert_Data_In_Books.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Docker....client_database_test: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker....db: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker...: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml.db: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;ad6aff0c-1ebc-4ea8-b301-8227208380e3&quot;,
+    &quot;JUnit.All in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (4).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (5).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.AuthControllerJsonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerXmlTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthControllerYmlTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookAuthorsServicesTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.BookControllerCorsWithJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookControllerWithJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookControllerWithXml.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.BookControllerWithYML.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.BookControllerWithYML.testFindAll.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.ClientControllerCorsWithJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerCorsWithJson.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerCorsWithJson.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerCorsWithXml.authorization.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerCorsWithXml.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerCorsWithYml.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerWithJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerWithXml.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientControllerWithYML.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientServicesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientServicesTest.findById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DozerMapperBookTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DozerMapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DozerMapperTest.parseEntityListToVOListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DozerMapperTest.parserVOListToEntityListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SwaggerIntegrationTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SwaggerIntegrationTest.shouldDisplaySwaggerUiPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.erudio in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.kotlin in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.rest-with-spring-boot-and-Kotlin-erudio in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.src in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.src.main in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.src.main.kotlin in https-github.com-RayTowns-rest-with-spring-boot-and-Kotlin-erudio.git.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.withJson in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.withXml in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.withYml in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ApplicationKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Startup.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StartupKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StartupKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Kotlin.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Startup.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.StartupKt.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.jackson-dataformat-xml [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [install...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [org.flywaydb:flyway-maven-plugin:9.22.3:baseline].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [org.flywaydb:flyway-maven-plugin:9.22.3:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rest-with-spring-boot-and-kotlin-erudio [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Startup.executor&quot;: &quot;Coverage&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;secnd__version&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raysatownsend/Documents/Back-End/Cursos/API_RESTful_with_springboot_kotlin_e_swagger/methods_get_post_put_delete/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3494253&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20016406&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "c30902bf-62a3-4c2c-b80b-251a49f5edcc",
-      "bf92a70c-3d9b-4ef8-80c9-1dc93f1fb17f",
-      "ff1ca2c1-f6b2-4872-8f32-831cf458474c"
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;c30902bf-62a3-4c2c-b80b-251a49f5edcc&quot;,
+      &quot;bf92a70c-3d9b-4ef8-80c9-1dc93f1fb17f&quot;,
+      &quot;ff1ca2c1-f6b2-4872-8f32-831cf458474c&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
@@ -612,7 +608,7 @@
       <workItem from="1714408637236" duration="6217000" />
       <workItem from="1714425130672" duration="686000" />
       <workItem from="1714426996921" duration="7813000" />
-      <workItem from="1714486788007" duration="1405000" />
+      <workItem from="1714486788007" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros">
       <option name="closed" value="true" />
