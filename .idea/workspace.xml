@@ -8,7 +8,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="'criando endpoints de autenticacao e seguranca'" />
+    <list default="true" id="d89b9fd5-7226-48ae-94bc-30f8b4fb7abc" name="Changes" comment="'criando endpoints de autenticacao e seguranca'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_RESTfull_Kotlin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/API_RESTfull_Kotlin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/UploadDir/test_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/UploadDir/test_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/UploadDir/test_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/UploadDir/test_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/UploadDir/test_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/rest-with-spring-boot-and-Kotlin-erudio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/Startup.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/config/FileStorageConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/config/OpenAPIConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/config/SecurityConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/config/WebConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/controller/AuthController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/controller/AuthorController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/controller/ClientController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/controller/FileController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v1/AccountCredentialsVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v1/AuthorVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v1/ClientVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v1/TokenVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v1/UploadFileResponseVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/data/vo/v2/ClientVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/ExceptionResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/FileStorageException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/InvalidJwtAuthenticationException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/MyFileNotFoundException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/RequiredObjectIsNullException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/ResourceNotFoundException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/ResponseBadRequestException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/ResponseNoContentException.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/mapper/DozerMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/mapper/custom/AuthorMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/mapper/custom/ClientMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/model/Author.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/model/Client.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/model/Permission.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/model/Users.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/repository/BookRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/repository/ClientRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/repository/UsersRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/security/jwt/JwtTokenFilter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/security/jwt/JwtTokenProvider.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/serialization/converter/YamlJackson2HttpMessageConverter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/services/AuthService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/services/BookAuthorsServices.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/services/ClientServices.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/services/FileStorageService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/services/UserServices.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/kotlin/br/com/erudio/util/MediaType.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V10__Insert_Data_In_User_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V11__Alter_Table_Clients.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V12__Populating_Clients_Table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V1__Create_Table_Clients.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V2__Populate_Table_Clients.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V3__Create_Table_Books.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V4__Insert_Data_In_Books.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V5__Create_Table_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V6__Insert_Data_In_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V7__Create_Table_Users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V8__Insert_Data_In_Users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/main/resources/db/migration/V9__Create_Table_User_Permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/TestsConfig.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/cors/withjson/BookControllerCorsWithJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/cors/withjson/ClientControllerCorsWithJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/cors/withjson/ClientControllerCorsWithXml.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withJson/AuthControllerJsonTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withJson/BookControllerWithJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withJson/ClientControllerWithJson.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withXml/AuthControllerXmlTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withXml/BookControllerWithXml.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withXml/ClientControllerWithXml.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withYml/AuthControllerYmlTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withYml/BookControllerWithYML.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withYml/ClientControllerWithYML.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/controller/withYml/mapper/YMLMapper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/repository/ClientRepositoryTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/swagger/SwaggerIntegrationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/testcontainers/AbstractIntegrationTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/AccountCredentialsVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/BookVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/ClientVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/TokenVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/wrappers/BookEmbeddedVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/wrappers/ClientEmbeddedVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/wrappers/WrapperBooksVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/integrationtests/vo/wrappers/WrapperClientsVO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mapper/DozerMapperBookTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mapper/DozerMapperTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mockito/services/BookAuthorsServicesTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mockito/services/ClientServicesTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mocks/MockBook.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/kotlin/br/com/erudio/unittests/mocks/MockClient.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archetype_API_RESTful/src/test/resources/application-tests.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/erudio/controller/AuthorController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/erudio/controller/AuthorController.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +236,7 @@
     &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (3).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (4).executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio (5).executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.All in rest-with-spring-boot-and-kotlin-erudio.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AuthControllerJsonTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AuthControllerXmlTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AuthControllerYmlTest.executor&quot;: &quot;Run&quot;,
@@ -204,11 +305,11 @@
     &quot;Spring Boot.Startup.executor&quot;: &quot;Coverage&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;secnd__version&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;secnd__branch&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raysatownsend/Documents/Back-End/Cursos/API_RESTful_with_springboot_kotlin_e_swagger/methods_get_post_put_delete/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raysatownsend/Documents/Back-End/Cursos/API_RESTful_with_springboot_kotlin_e_swagger/methods_get_post_put_delete&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -286,7 +387,23 @@
       <recentPaths value="$PROJECT_DIR$" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StartupKt">
+  <component name="RunManager" selected="JUnit.All in rest-with-spring-boot-and-kotlin-erudio (1)">
+    <configuration name="All in rest-with-spring-boot-and-kotlin-erudio (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rest-with-spring-boot-and-kotlin-erudio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-with-spring-boot-and-kotlin-erudio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookControllerWithJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-with-spring-boot-and-kotlin-erudio" />
       <extension name="coverage">
@@ -317,33 +434,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientControllerWithJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest-with-spring-boot-and-kotlin-erudio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.integrationtests.controller.withJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.erudio.integrationtests.controller.withJson" />
-      <option name="MAIN_CLASS_NAME" value="br.com.erudio.integrationtests.controller.withJson.ClientControllerWithJson" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="erudio in rest-with-spring-boot-and-kotlin-erudio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-with-spring-boot-and-kotlin-erudio" />
       <option name="TEST_OBJECT" value="directory" />
       <dir value="$PROJECT_DIR$/src/test/kotlin/br/com/erudio" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kotlin in rest-with-spring-boot-and-kotlin-erudio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest-with-spring-boot-and-kotlin-erudio" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -389,9 +483,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in rest-with-spring-boot-and-kotlin-erudio" />
+      <item itemvalue="JUnit.All in rest-with-spring-boot-and-kotlin-erudio (1)" />
       <item itemvalue="JUnit.BookControllerWithXml" />
-      <item itemvalue="JUnit.kotlin in rest-with-spring-boot-and-kotlin-erudio" />
-      <item itemvalue="JUnit.ClientControllerWithJson" />
       <item itemvalue="JUnit.erudio in rest-with-spring-boot-and-kotlin-erudio" />
       <item itemvalue="JUnit.BookControllerWithJson" />
       <item itemvalue="Spring Boot.Startup" />
@@ -399,11 +493,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rest-with-spring-boot-and-kotlin-erudio (1)" />
+        <item itemvalue="JUnit.All in rest-with-spring-boot-and-kotlin-erudio" />
         <item itemvalue="JUnit.BookControllerWithJson" />
         <item itemvalue="JUnit.erudio in rest-with-spring-boot-and-kotlin-erudio" />
         <item itemvalue="JUnit.BookControllerWithXml" />
-        <item itemvalue="JUnit.kotlin in rest-with-spring-boot-and-kotlin-erudio" />
-        <item itemvalue="JUnit.ClientControllerWithJson" />
       </list>
     </recent_temporary>
   </component>
@@ -609,6 +703,9 @@
       <workItem from="1714425130672" duration="686000" />
       <workItem from="1714426996921" duration="7813000" />
       <workItem from="1714486788007" duration="1757000" />
+      <workItem from="1714488553299" duration="1419000" />
+      <workItem from="1714502379895" duration="482000" />
+      <workItem from="1714658806001" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros">
       <option name="closed" value="true" />
@@ -626,7 +723,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706914801519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="'criando endpoints de autenticacao e seguranca'">
+      <option name="closed" value="true" />
+      <created>1714488823024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714488823024</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -710,7 +815,8 @@
     </ignored-roots>
     <MESSAGE value="Iniciando um novo repositorio para organizacao" />
     <MESSAGE value="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajustando projeto restful api com testes usando mockito e detalhamento das condicoes de excecoes e respostas a erros" />
+    <MESSAGE value="'criando endpoints de autenticacao e seguranca'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'criando endpoints de autenticacao e seguranca'" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
