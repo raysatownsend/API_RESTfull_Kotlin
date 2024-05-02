@@ -5,11 +5,12 @@ on:
     branches: 
       - secnd_branch
 jobs:
-  build:
+  packages:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
     
     - name: Log in to Docker Hub
       uses: docker/login-action@v1
