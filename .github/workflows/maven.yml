@@ -27,6 +27,7 @@ jobs:
     
     - name: Build Application Jar
       working-directory: ./API_RESTfull_Kotlin
+      run: mvn clean package
     
     - name: Docker Compose Build
       working-directory: ./API_RESTfull_Kotlin
