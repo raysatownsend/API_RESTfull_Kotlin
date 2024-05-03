@@ -1,7 +1,7 @@
 cors:
   originPatterns: http://localhost:3000,http://localhost:8080,http://localhost:8036,https://erudio.com.br
 file:
-  upload-dir: /home/runner/work/methods_get_post_put_delete/UploadDir
+  upload-dir: /home/runner/work/UploadDir
 security:
   jwt:
     token:
