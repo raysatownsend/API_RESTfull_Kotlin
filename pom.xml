@@ -150,7 +150,7 @@
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <configuration>
-                    <url>jdbc:mysql://localhost:3306/client_database_test?useTimezone=true</url>
+                    <url>jdbc:mysql://localhost:8036/client_database_test?useTimezone=true</url>
                     <user>root</user>
                     <password>Raysa#1902</password>
                 </configuration>
