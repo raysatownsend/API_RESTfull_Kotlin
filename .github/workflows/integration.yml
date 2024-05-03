@@ -29,6 +29,10 @@ jobs:
     
       - name: Build Application Jar
         run: mvn clean package --file pom.xml
+
+      - name: List contents of the directory
+        run: ls /home/runner/work/UploadDir
+
     
       - name: Docker Compose Build
         run: docker compose build
