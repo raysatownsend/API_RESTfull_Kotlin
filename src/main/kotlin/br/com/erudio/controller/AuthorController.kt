@@ -86,6 +86,7 @@ class AuthorController {
         return ResponseEntity.ok(service.findAll(pageable))
     }
 
+    @CrossOrigin(origins = ["http://localhost:8080", "http://localhost:3000", "http://localhost:8036"])
     @GetMapping(value = ["/{id}"],
         produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
 
@@ -139,6 +140,7 @@ class AuthorController {
         return service.findById(id)
     }
 
+    @CrossOrigin(origins = ["http://localhost:8080", "http://localhost:3000", "http://localhost:8036"])
     @PostMapping(consumes = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML],
         produces = [MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML])
 

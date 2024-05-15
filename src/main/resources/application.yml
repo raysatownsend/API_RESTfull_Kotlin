@@ -12,8 +12,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/client_database_test?useTimezone=true&serverTimezone=UTC
-    username: root
+    url: jdbc:mysql://client-database-test.c5ow4qqcsdc6.us-east-1.rds.amazonaws.com:8036/client_database_test?useTimezone=true&serverTimezone=UTC
+    username: docker
     password: Raysa#1902
   jpa:
     open-in-view: false
