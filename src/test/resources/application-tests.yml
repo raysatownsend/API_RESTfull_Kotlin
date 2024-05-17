@@ -1,7 +1,7 @@
 cors:
   originPatterns: http://localhost:3000,http://localhost:8080,http://localhost:8036,https://erudio.com.br
 file:
-  upload-dir: /home/runner/work/methods_get_post_put_delete/UploadDir
+  upload-dir: /home/runner/work/API_RESTful_with_springboot_kotlin_e_swagger/methods_get_post_put_delete/UploadDir
 security:
   jwt:
     token:
